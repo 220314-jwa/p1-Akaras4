@@ -3,6 +3,12 @@
   <groupId>SPMS</groupId>
   <artifactId>SPMS</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <properties>
+  <sonar.organization>220314-jwa</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
+  
 <dependencies>
 	<dependency>
     <groupId>io.javalin</groupId>
