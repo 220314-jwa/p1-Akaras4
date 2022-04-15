@@ -1,6 +1,8 @@
 package net.revature.models;
 
-public class StoryPitch {
+import java.util.List;
+
+public class StoryPitch implements List<StoryPitch> {
 	private int pitchId;
 	private int authorId;
 	private int genreId;

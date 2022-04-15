@@ -33,10 +33,8 @@ package net.revature.data;
 		public int create(T newObj); // returns the generated ID
 		public T getById(int id); // read one
 		public List<T> getAll(); // read all
-		public void update(T updatedObj);
-		public void delete(T objToDelete);
-		// new method that deletes an object by just an id
-		public void deleteById(int id);
+		public void update(T updatedObj) throws SQLException;
+		public void delete(T objToDelete) throws SQLException;
 	}
 
 
